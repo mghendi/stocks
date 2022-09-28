@@ -1,0 +1,32 @@
+body{background: #2ba9bc;)
+    /* background-image: url('images/background.png');
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-position: top left;*/}
+
+.form-public{
+    margin-top: 20px;
+}
+
+
+
+.navbar{border-radius: 0;}
+
+h1,h2,h3,h4,h5,h6,p,label,th,td {
+    color: #000000
+    /*color: #1b6d85*/}
+
+.btn{border-radius: 0;}
+
+input{border-radius: 0;}
+
+button{border-radius: 0;}
+
+.btn-custom-1{
+    background: #d2601d;
+    color: #ffffff;
+}
+
+h2{height: 50px;
+    padding-top: 14px;}
+

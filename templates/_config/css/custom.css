@@ -1,0 +1,279 @@
+body{background: white;
+   /*background-image: url('../img/team/member.png');
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-position: top left;*/}
+
+
+.btn-link:hover,.btn-link:focus{
+    text-decoration: none;
+}
+
+pre{
+    border-radius: 0;
+    border: none;
+    text-decoration: none;
+    background-color: transparent;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.center-box{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea{
+    resize: none;
+}
+
+.footer-inverse {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    border-radius: 0;
+   /* height: 150px;*/
+}
+
+.footer-text {
+    color: black;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+.card{
+    background-color: rgba(12, 12, 12, 0.4);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 20px;
+    color: #9d9d9d;
+    display: block;
+    position: relative;
+}
+
+.center-card{
+    max-height: 600px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.footer-div{
+    float: left;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.page-content{
+    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.navbar{
+    border-radius: 0;
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*width: 100%;*/
+}
+
+.btn{
+    border-radius: 0;
+}
+
+.btn-custom-1{
+
+    background: #d2601d;
+    color: #000000;
+    margin: 2px;
+}
+
+.btn-custom-2{
+
+    background: #d2af65;
+    color: #000000;
+    margin: 2px;
+}
+
+.stuff{
+    padding: 10px;
+    display: block;
+    position: relative;
+}
+
+.box-shadow{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.box-btn{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.box-center-div{
+    text-align: center;
+}
+
+.btn-custom-1:hover, .btn-custom-1:focus,
+.btn-custom-2:hover, .btn-custom-2:focus{
+    background: #ae551a;
+    box-shadow: none;
+    font-style: oblique;
+}
+
+.box-btn:hover, .box-btn:focus{
+    box-shadow: none;
+    font-style: oblique;
+}
+
+
+.nav-btn-active{
+    color: #ffffff;
+    background-color: #080808;
+}
+
+input{
+    border-radius: 0;
+}
+
+.modal{
+    margin-top: 50px ;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(6, 6, 6, 0.71);
+    border-radius: 0;
+}
+
+.modal-content{
+    background-color: rgba(254, 254, 254, 1);
+    margin: 15% auto;
+    padding: 5px;
+    width: 95%;
+    max-width: 400px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    /*border-radius: 0;*/
+}
+
+.modal-header{
+    background-color: rgba(33, 108, 116, 1);
+}
+
+.close{
+    color: #aaa;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.img-share{
+    position: relative;
+    max-width: 23.3%;
+    margin: 3px;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.modal-title{
+    color: #ffffff;
+}
+
+
+.hidden-div{
+    display: none;
+}
+
+.profile-data>img{
+    max-width: 20%;
+    float: left;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.profile-data>h2{
+    float: left;
+    font-size: 26px;
+    font-style: oblique;
+}
+
+.profile-data>td{
+    float: left;
+    font-size: 24px;
+}
+
+.sidebar{
+    margin: 5px;
+    padding: 5px;
+    display: block;
+    position: relative;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    background-color: rgba(12, 12, 12, 0.4);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.sidebar-header{
+    background-color: rgba(33, 108, 116, 1);
+    font-size: 20px;
+    margin: 0;
+    padding: 3px;
+}
+
+.sidebar-content{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-card{
+    max-width: 500px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.travel-card{
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.travel-card{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.topnav {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: #343a40;
+    overflow: hidden;
+    height: 60px;
+    padding: 5px;
+}
+
+.bottomnav {
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: #f8f9fa;
+    overflow: hidden;
+    height: 60px;
+    padding: 10px;
+}
+
+a {
+    color: #ffc107;
+    text-shadow: 2px 2px black;
+    padding-right: 20px;
+    font-size: 17px;
+}
